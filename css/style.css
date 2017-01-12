@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+ div .container-body {
+   width: 1000px;
+ }
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Libre Franklin";
+  color: #FFF;
+}
+/************************
+Navigation
+*************************/
+.navbar ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 20;
+}
+.navbar li {
+    float: left;
+    padding: 20;
+}
+/************************
+banner with search box
+*************************/
+.image-banner {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-04/images/hero-splash-roommates-fun.jpg");
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.image-banner  p {
+  text-align: center;
+}
+
+.image-banner #heading {
+   color: #fff;
+   font-size: 3em;
+   padding-top: 20px;
+}
+
+.image-banner #sub-heading {
+   color: #fff;
+   font-size: 1.25em;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.search {
+  padding: 15px 100px;
+  background: #FFF;
+  border: 0px solid #FFF;
+}
+.button {
+  position: relative;
+  padding: 15px 15px;
+  left: -8px;
+  border: 0px solid #00a86b;
+  background-color: #00a86b;
+  color: #fafafa;
+}
+
+.button:hover  {
+  background-color: #fafafa;
+  color: #207cca;
+
+.columns-container img {
+    max-width: 25%;
+    display:inline-block;
+}
+#city-pics {
+   float: left;
+   width: 25%;
+   padding: 0;
+   margin: 0:
+ }
+
+}
+div .featured-properties {
+      padding: 50px;
+      background-color: #B0E6E2;
+}
+
+.navbar{
+  background-color: #F55E05;
+  padding: 50px;
+}
+.navbar ul {
+  width: 1180px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+div .columns-container-footer {
+  background-color: #2c2416;
+}
