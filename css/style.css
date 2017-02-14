@@ -4,7 +4,7 @@
 
 img {
   max-width: 100%;
-  display: block;
+  display: inline;
   font-size: 0;
 }
 
@@ -35,40 +35,43 @@ div columns-container {
 Navigation
 *************************/
 
-/*.menu {
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}*/
 
-.navbar ul {
-    list-style-type: none;
+.navbar {
+    background-color: #f55e05;
+    display: inline-block;
+    height: 75px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.active {
-    background-color: #4CAF50;
-    color: white;
+.menu-items ul {
+    position: absolute;
+    top: 30px;
+    right: -650px;
+    width: 80%;
+    display: inline-block;
 }
-
-.navbar li {
-    width: 100%;
-    float: right;
-    background-color: #f55e05;
-    text-align: right;
+.menu-items li {
+    display: inline-block;
+    text-align: center;
     color: #fff;
     text-decoration: none;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 25px;
+    border: 1px solid #fff;
 }
-
-
+.menu-items a:visited {
+    color: #fff;
+}
+.menu-items a:hover {
+    color: #B0E6E2;
+}
 .logo {
-  background-color: #f55e05;
   position: relative;
-  top: 70px;
-  left: 30px;
-  width: 10%;
+  top: 10px;
+  left: 10px;
+  width: 25%;
 }
 /************************
 banner with search box
@@ -96,8 +99,9 @@ banner with search box
 
 form {
   width: 500px;
-  position: relative;;
-  left: 400px;
+  position: relative;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .search {
@@ -121,9 +125,15 @@ form {
 /*******************************
 city picture carousel
 ********************************/
-#city-pics img{
-   display: inline-block;
-   width: 25%;
+ div #city-pics {
+  display: inline-block;;
+  width: 80%;
+  margin: 0;
+  font-size: 0px;
+}
+img .city-pictures {
+   display: inline;
+   max-width: 20%;
    padding: 0;
    margin: 0:
  }
