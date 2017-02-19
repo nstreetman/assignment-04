@@ -77,7 +77,7 @@ Navigation
 banner with search box
 *************************/
 .image-banner {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-04/images/hero-splash-roommates-fun.jpg");
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
   padding: 200px 0;
 }
@@ -125,17 +125,42 @@ form {
 /*******************************
 city picture carousel
 ********************************/
- div #city-pics {
-  display: inline-block;;
-  width: 80%;
-  margin: 0;
-  font-size: 0px;
+#city-pics {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
-img .city-pictures {
-   display: inline;
-   max-width: 20%;
+
+ #city-pics div {
+  display: inline-block;;
+  width: 100%;
+  margin-left: 15px;
+  font-size: 0px;
+
+}
+#city-pics img {
+   display: inline-block;
    padding: 0;
-   margin: 0:
+   margin: 0;
+   font-size: 0;
+ }
+ .city-pictures {
+    display: inline-block;
+    max-width: 23%;
+    padding-left: 10px;
+    padding-right: 25px;
+    align-items: center;
+ }
+ .city-name{
+   background-color: #000;
+   height: 25px;
+
+ }
+ .city-name p{
+   color: #fff;
+   font-size: 18px;
+   padding-top: 2px;
  }
 
  /*******************************
