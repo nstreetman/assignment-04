@@ -184,37 +184,53 @@ div .feature-filter-box {
   display: inline-block;
   background-color: #d9d8ce;
   width: 100%;
+  margin: 0px;
 }
 
 div .featured-properties {
-  width: 45%;
+  width: 35%;
   padding: 50px;
-
+  margin:
 }
-/*img .featured-properties {
-  width: 49%;
 
-}*/
-div .featured-text {
+.featured-text div{
   background-color: #fff;
+  margin: 0px;
 }
 
-div .filter-list{
-  width: 45%;
+.filter-list div{
+  display: inline-block;
+  width: 40%;
 }
+
 
 /*******************************
 Footer
 ********************************/
 
-div .columns-container-footer {
+.columns-container-footer div {
   background-color: #2c2416;
   display: inline-block;
   width: 100%;
 
 }
-
+.footer-text ul{
+  display: inline-block;;
+}
 .columns-container-footer li{
   list-style: none;
 
+}
+
+/*******************************
+icon
+********************************/
+
+.icons {
+  display: inline-block;
+}
+
+.icons img {
+  display: inline-block;
+  max-width: 25%;
 }
