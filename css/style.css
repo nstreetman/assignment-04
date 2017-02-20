@@ -218,20 +218,29 @@ Footer
 ********************************/
 
 .columns-container-footer div {
+  height: 175px;
   background-color: #2c2416;
   display: inline-block;
   vertical-align: top;
   width: 100%;
 
 }
-.footer-text ul{
+.footer-text div{
+  color: #fff;
+  font-weight: 200;
   display: inline-block;
   vertical-align: top;
-  width: 30%;
+  width: 32%;
+  line-height: 1.75;
 }
-.columns-container-footer li{
-  list-style: none;
 
+.footer-text h3 {
+  padding-bottom: 5px;
+}
+.columns-container-footer ul{
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 
 /*******************************
