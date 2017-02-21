@@ -288,6 +288,7 @@ Tiffany's Box
   font-size: 24px;
   width: 40px;
   padding-left: 10px;
+  margin-left: 260px;
 }
 
 .green-header-box {
@@ -302,6 +303,7 @@ Tiffany's Box
 .question-box {
   border: 3px solid #29BBAF;
   width: 300px;
+  background-color: #fff;
 }
 
 .somebody-help-tiffany-she-is-stuck-in-here img {
@@ -322,4 +324,10 @@ Tiffany's Box
 }
 .chat-with {
   color: #F55E05;
+}
+
+.question-box-container {
+  position: fixed;
+
+  bottom: 0px;
 }
