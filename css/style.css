@@ -221,8 +221,17 @@ div .filter-list {
   margin: 0px;
   display: inline-block;
   vertical-align: top;
+  line-height: 2;
 }
 
+.filter-list ul {
+    list-style: none;
+    line-height: 2;
+}
+ .filter-list i {
+  font-size: 8px;
+  font-style: oblique;
+}
 
 /*******************************
 Footer
