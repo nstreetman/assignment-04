@@ -174,42 +174,53 @@ div .more-button {
   text-align: center;
   border: 2px solid  #f55e05;
   color: #f55e05;
-
 }
 
  /*******************************
  Featured-properties
  ********************************/
-.feature-filter-box {
+div .feature-filter-box {
   display: inline-block;
-  background-color: #d9d8ce;
+  vertical-align: top;
+  background-color: #E4E2E2;
   width: 100%;
-  margin: 0px;
-
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.featured-properties{
+
+div .featured-properties{
   width:50%;
+  margin: 0px;
+  display: inline-block;
+
 }
  .featured-properties img{
    padding: 0;
    margin: 0;
    font-size: 0;
-   width: 550px;
+   width: 350px;
 }
 .featured-properties div {
   vertical-align: top;
-  width: 50%;
-  /*border: 1px solid #000;*/
+}
+.featured-properties {
+  margin-left: 50px;
 }
 div .featured-text  {
   background-color: #fff;
   width:50%;
-  margin: 0px;
+  width: 350px;
+  margin-top: -5px;
+  padding: 15px;
+  line-height: 1.5;
 }
 
 div .filter-list {
   width: 40%;
-  border: 1px solid #000;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 
@@ -219,7 +230,7 @@ Footer
 
 .columns-container-footer div {
   height: 175px;
-  background-color: #2c2416;
+  background-color: #232222;
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -228,7 +239,7 @@ Footer
 .footer-text div{
   color: #fff;
   font-weight: 200;
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: top;
   width: 32%;
   line-height: 1.75;
@@ -236,6 +247,7 @@ Footer
 
 .footer-text h3 {
   padding-bottom: 5px;
+  font-weight: 300;
 }
 .columns-container-footer ul{
   list-style: none;
@@ -251,8 +263,8 @@ div .icons {
   display: inline-block;
   height: 125px;
   width: 100%;
-  background-color: #2c2416;
-  border-top: 1px solid #d9d8ce;
+  background-color: #232222;
+  border-top: 1px solid #E4E2E2;
 }
 
 .icons img {
@@ -265,4 +277,12 @@ div .icons {
   padding-top: 25px;
   padding-left: 10px;
   margin-right: 10px;
+}
+
+/*******************************
+Tiffany's Box
+********************************/
+.somebody-help-tiffany-she-is-stuck-in-here img {
+  width:100px;
+  border-radius: 100px;
 }
