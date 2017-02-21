@@ -92,7 +92,7 @@ banner with search box
    color: #fff;
    font-size: 1.25em;
 }
-
+/*//I got the form how-to somewhere from the web, but it's been so long, I don't remember exactly where)*/
 form {
   width: 500px;
   position: relative;
@@ -195,6 +195,32 @@ div .featured-properties{
   display: inline-block;
 
 }
+
+.heart-cont {
+  color: #fff;
+  background-color: red;
+  font-size: 18px;
+  align: center;
+  width:25px;
+  height: 25px;
+  position: relative;
+  top: -225px;
+  right: -300px;
+  border-radius: 100px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.price-box{
+  background-color: #000;
+  color: #fff;
+  width: 60px;
+  height:40px;
+  padding-top: 10px;
+  position: relative;
+  top: -100px;
+}
+
  .featured-properties img{
    padding: 0;
    margin: 0;
