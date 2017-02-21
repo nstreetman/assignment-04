@@ -184,6 +184,7 @@ div .feature-filter-box {
   vertical-align: top;
   background-color: #E4E2E2;
   width: 100%;
+  height: 420px;
   padding-left: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -240,6 +241,8 @@ div .featured-text  {
   margin-top: -5px;
   padding: 15px;
   line-height: 1.5;
+  position: relative;
+  top: -75px;
 }
 
 div .filter-list {
