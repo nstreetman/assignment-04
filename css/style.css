@@ -282,7 +282,44 @@ div .icons {
 /*******************************
 Tiffany's Box
 ********************************/
+.question-box-tab {
+  color: #fff;
+  background-color: #29BBAF;
+  font-size: 24px;
+  width: 40px;
+  padding-left: 10px;
+}
+
+.green-header-box {
+  background-color: #B0E6E2;
+  font-size: 18px;
+  height: 40px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.question-box {
+  border: 3px solid #29BBAF;
+  width: 300px;
+}
+
 .somebody-help-tiffany-she-is-stuck-in-here img {
-  width:100px;
+  width:75px;
   border-radius: 100px;
+  border: 1px solid #000;
+}
+
+.box-with-tiffany-in-it div{
+  padding-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.chat-with-Tiffany  div{
+  padding-top:  25px;
+  padding-left: 10px;
+}
+.chat-with {
+  color: #F55E05;
 }
