@@ -44,8 +44,11 @@ Navigation
 .menu-items ul {
     position: absolute;
     top: 30px;
-    right: -650px;
     width: 80%;
+    text-align: right;
+    margin-left: 100px;
+
+    /* text align above to position menu items to right*/
     display: inline-block;
 }
 .menu-items li {
@@ -57,6 +60,9 @@ Navigation
     margin-left: 25px;
     border: 1px solid #fff;
 }
+  .menu-items a {
+    color: #fff;
+  }
 .menu-items a:visited {
     color: #fff;
 }
